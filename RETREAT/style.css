@@ -1,0 +1,160 @@
+/* colors{
+    white: #FFFFFF;
+    darkblue: #12275C;
+    gold: #B69A6E;
+    otherdeepblue: #29326E;
+    bieg1: #F1E3D5;
+    biege2: #F2E4D6
+} */
+
+
+/**
+* 1. Centers the content.
+* 2. Feel free to change this, this sets the width
+* 3. Adds some internal 'padding' to the div
+*/
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+    max-width:1100px; /* 2 */
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+}
+
+.footWrapper{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 10px;
+    max-width: 560px;
+}
+
+.mainHeaderbkgd{
+    background-image: url(Pics/beach.jpg);
+    /* color: white; */
+    height: 500px;
+}
+
+.headerbkgd{
+    background-color: #29326E;
+    color: white;
+    /* height: 300px;
+    position: relative; */
+}
+
+.container-fluid{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.goldBtn {
+    background: #B69A6E 0% 0% no-repeat padding-box;
+    border: none;
+    color: #FFFFFF;
+    padding: 9px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+  }
+
+  .mainHeadText {
+    text-align: center;
+    margin-top: 10%; 
+    color: #FFFFFF;
+  }
+
+  .headText {
+    /* this centers the text horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  .hProgram {
+    /* background-color: #F2E4D6;     */
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .programHead {
+    padding: 2%;
+    text-align: center;
+  }
+
+  .proImage {
+    border: 3px solid #B69A6E;
+    margin: 5%;
+  }
+
+  /* .nav.navbar-nav li a{
+      color: #B69A6E;
+  } */
+
+
+  .headBtn{
+      border: 3px solid #B69A6E;
+      border-radius: 6px;
+      /* color: #B69A6E; */
+      /* padding-right: -100px; */
+
+      /* margin: 0 auto; */
+      /* justify-content: left;
+      align-items: left; */
+  }
+
+.leadText{
+    margin: 5%;
+
+}
+
+.purpBtn {
+    margin:0 auto;
+    display:block;
+    color: #29326E;
+    border: 5px solid #29326E;
+    background-color: inherit;
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+.hvideo {
+background-color: #B69A6E;
+}
+
+.lefty{
+    color: #FFFFFF;
+    font-size: 70px;
+    text-align: center;
+}
+
+.rightSide{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* .whiteout{
+    color: #FFFFFF;
+
+} */
+
+
+
+
+
+@media (min-width: 768px) {
+    .purpBtn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 992px) {
+    .leadText{
+        margin: 0%;
+    }
+
+    .headBtn{
+        border: 3px solid #FFFFFF;
+        border-radius: 6px;
+        /* color: #FFFFFF; */
+    }
+}
+
